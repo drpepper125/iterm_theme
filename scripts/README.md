@@ -7,7 +7,8 @@ This directory contains additional scripts and utilities for terminal customizat
 - `backup_configs.sh` - Backup existing terminal configurations
 - `uninstall.sh` - Remove customizations and restore defaults
 - `update.sh` - Update Oh My Zsh, themes, and plugins
-- `theme_switcher.sh` - Switch between different terminal themes
+- `font_test.sh` - Test font installation
+- `vscode_font_fix.sh` - Fix VS Code terminal font
 
 ## Usage
 

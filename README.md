@@ -199,7 +199,8 @@ iterm_theme/
 - **`./scripts/backup_configs.sh`** - Create timestamped backups
 - **`./scripts/font_test.sh`** - Test if fonts are displaying correctly
 - **`./scripts/vscode_font_fix.sh`** - Auto-configure VS Code terminal font
-- **`./scripts/prepare_github.sh`** - Prepare repository for GitHub upload
+
+## Customization Tips
 
 ## Troubleshooting
 
