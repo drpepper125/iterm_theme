@@ -22,7 +22,7 @@ cd iterm_theme
 - 🚀 **Oh My Zsh Framework** - Powerful zsh configuration framework
 - 📊 **Git Integration** - Visual git status, branch info, and useful aliases
 - ⚡ **Enhanced Plugins** - Auto-suggestions, syntax highlighting, and completions
-- 🔤 **Custom Font Support** - MesloLGS NF fonts for perfect icon display
+- **Font installation** - Automatically downloads and installs MesloLGS NF fonts
 - 🛠️ **Useful Aliases** - Time-saving shortcuts for common commands
 - 📁 **Smart Directory Navigation** - Enhanced directory handling and shortcuts
 
@@ -49,6 +49,13 @@ Run the installation script to set everything up automatically:
 chmod +x install.sh
 ./install.sh
 ```
+
+**The script automatically installs:**
+- Oh My Zsh framework
+- Powerlevel10k theme
+- Essential zsh plugins (autosuggestions, syntax highlighting, completions)
+- **MesloLGS NF fonts** (no manual download needed!)
+- Custom configurations
 
 ### Manual Installation
 
@@ -82,7 +89,8 @@ If you prefer to install components manually:
    cp configs/.p10k.zsh ~/.p10k.zsh
    ```
 
-5. **Install fonts (download and double-click to install):**
+5. **Install fonts (automatically handled by install.sh):**
+   The installation script downloads these fonts automatically, but if installing manually:
    - [MesloLGS NF Regular](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf)
    - [MesloLGS NF Bold](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf)
    - [MesloLGS NF Italic](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf)
