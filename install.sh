@@ -4,9 +4,9 @@
 # Complete setup for macOS terminal with Oh My Zsh, Powerlevel10k, and git integration
 # 
 # Usage: 
-#   curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/iterm_theme/main/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/drpepper125/iterm_theme/main/install.sh | bash
 #   or
-#   git clone https://github.com/YOUR_USERNAME/iterm_theme.git && cd iterm_theme && ./install.sh
+#   git clone https://github.com/drpepper125/iterm_theme.git && cd iterm_theme && ./install.sh
 
 set -e
 
@@ -83,8 +83,8 @@ download_configs() {
         cd "$TEMP_DIR"
         
         # Download configurations
-        curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/iterm_theme/main/configs/.zshrc -o .zshrc
-        curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/iterm_theme/main/configs/.p10k.zsh -o .p10k.zsh
+        curl -fsSL https://raw.githubusercontent.com/drpepper125/iterm_theme/main/configs/.zshrc -o .zshrc
+        curl -fsSL https://raw.githubusercontent.com/drpepper125/iterm_theme/main/configs/.p10k.zsh -o .p10k.zsh
         
         print_success "Configuration files downloaded"
         CONFIG_SOURCE="$TEMP_DIR"

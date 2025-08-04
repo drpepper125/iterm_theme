@@ -6,12 +6,12 @@ A comprehensive setup for customizing your macOS terminal with Oh My Zsh, Powerl
 
 ### One-line install (from GitHub):
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/iterm_theme/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/drpepper125/iterm_theme/main/install.sh | bash
 ```
 
 ### Or clone and run:
 ```bash
-git clone https://github.com/YOUR_USERNAME/iterm_theme.git
+git clone https://github.com/drpepper125/iterm_theme.git
 cd iterm_theme
 ./install.sh
 ```
@@ -255,7 +255,7 @@ After uploading, update these files with your GitHub username:
 
 ### 5. Test the installation:
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/iterm_theme/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/drpepper125/iterm_theme/main/install.sh | bash
 ```
 
 ## Customization Tips
