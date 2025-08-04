@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*.backup.*
+*~
+
+# Temporary files
+*.tmp
+*.temp
+.temp/
+temp/
+
+# Logs
+*.log
+
+# Personal configurations
+.zshrc.local
+
+# VS Code
+.vscode/
+!.vscode/tasks.json
+
+# Node modules (if any)
+node_modules/
+
+# Test files
+test_output/
